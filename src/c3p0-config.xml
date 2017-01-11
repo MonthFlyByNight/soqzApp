@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		
+		<property name="user">root</property>
+		
+		<property name="password"> </property>
+		
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		
+		<property name="jdbcUrl">jdbc:mysql://localhost/soqz?useUnicode=true&amp;autoReconnect=true&amp;characterEncoding=gbk&amp;zeroDateTimeBehavior=round</property>
+
+		<!-- 连接池初始化建立的连接数 默认值是3 -->
+		
+		<property name="initialPoolSize">3</property>
+		
+		<!-- 连接的最大空闲时间  单位秒 默认是0-代表永远不会断开连接  超过设定时间的空闲连接将会断开 -->
+		
+		<property name="maxIdleTime">30</property>
+		
+		<!-- 连接池中拥有的最大连接数 默认值为15个 -->
+		  
+        <property name="maxPoolSize">20</property>
+        
+        <!-- 连接池中保持的最小连接数  默认值为3个-->
+        
+        <property name="minPoolSize">3</property>
+		
+		<!-- 将连接池的连接数保持在minpoolsize 必须小于maxIdleTime设置  默认值为0代表不处理  单位秒 -->  
+		
+		<property name="maxIdleTimeExcessConnections">15</property>
+		
+		<!--每60秒检查所有连接池中的空闲连接。Default: 0 --> 
+		<property name="idleConnectionTestPeriod">60</property> 
+		
+		<!--当连接池用完时客户端调用getConnection()后等待获取新连接的时间，超时后将抛出SQLException,如设为0则无限期等待。单位毫秒。Default: 0 2015-11-12-->
+		<property name="checkoutTimeout">1000</property>
+		
+		<!--c3p0是异步操作的，缓慢的JDBC操作通过帮助进程完成。扩展这些操作可以有效的提升性能通过多线程实现多个操作同时被执行。Default: 3-->
+		<property name="numHelperThreads">3</property>
+		
+		<!--debugUnreturnedConnectionStackTraces是一个开关，启用之后，对于每个从连接池拿出去的数据库连接，如果一段时间内没有归还，C3P0就会强制关闭这个连接，并将获取连接时的stack trace，以抛出异常的方式显示出来-->
+		<property name="debugUnreturnedConnectionStackTraces">true</property>
+		
+		<!--一个checkout连接的超时设置，一旦一个checkout连接超时，他将物理的关闭，而不是返回池中，主要是防止连接被长期使用不释放，这个设置也是比较危险的  以秒为单位-->
+		<property name="unreturnedConnectionTimeout">30</property>
+		<!-- <property name="connectionProperties">useUnicode=true;autoReconnect=true;characterEncoding=gbk;zeroDateTimeBehavior=round</property> -->
+	</default-config>
+</c3p0-config>
