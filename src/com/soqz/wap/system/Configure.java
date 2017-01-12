@@ -5,70 +5,70 @@ import java.util.logging.Logger;
 
 public class Configure {
 
-    //产品图片网络相对地址
+    //锟斤拷品图片锟斤拷锟斤拷锟斤拷锟皆碉拷址
     private final static String PRODUCTIMAGEURL = "productImgUrl";
-    //用户头像存储的绝对地址
+    //锟矫伙拷头锟斤拷锟芥储锟侥撅拷锟皆碉拷址
     private final static String USERIMAGEPATH = "userImgPath";
-    //用户头像存储的相对地址
+    //锟矫伙拷头锟斤拷锟芥储锟斤拷锟斤拷锟皆碉拷址
     private final static String USERIMAGEURL = "userImgUrl";
-    //用户反馈存储绝对地址
+    //锟矫伙拷锟斤拷锟斤拷锟芥储锟斤拷锟皆碉拷址
     private final static String SUGGESTIMAGEPATH = "suggestImgPath";
-    //用户反馈存储相对地址
+    //锟矫伙拷锟斤拷锟斤拷锟芥储锟斤拷锟皆碉拷址
     private final static String SUGGESTIMAGEURL = "suggestImgUrl";
-    //用户唯一二维码相对地址
+    //锟矫伙拷唯一锟斤拷维锟斤拷锟斤拷锟皆碉拷址
     private final static String QRCODEURL = "qrcodeImgUrl";
-    //用户唯一二维码绝对地址
+    //锟矫伙拷唯一锟斤拷维锟斤拷锟斤拷锟皆碉拷址
     private final static String QRCODEPATH = "qrcodeImgPath";
-    //拼接用下载地址
+    //拼锟斤拷锟斤拷锟斤拷锟截碉拷址
     private final static String DOWNLOAD = "downloadUrl";
-    //广告图片网络相对地址 
+    //锟斤拷锟斤拷图片锟斤拷锟斤拷锟斤拷锟皆碉拷址
     private final static String ADVERTISINGURL = "advertisingUrl";
-    //我趣商品查询对接地址
+    //锟斤拷趣锟斤拷品锟斤拷询锟皆接碉拷址
     private final static String WOOQUURL = "wooquUrl";
-    //分享用logo图片相对地址
+    //锟斤拷锟斤拷锟斤拷logo图片锟斤拷锟皆碉拷址
     private final static String LOGOURL = "logoUrl";
-    //服务器主域名
+    //锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
     private final static String MAINURL = "mainUrl";
-    //我趣商品物流备货确认
+    //锟斤拷趣锟斤拷品锟斤拷锟斤拷锟斤拷锟斤拷确锟斤拷
     private final static String WOOQUMALLURL = "wooquMallUrl";
-    //我趣商品物流识别码
+    //锟斤拷趣锟斤拷品锟斤拷锟斤拷识锟斤拷锟斤拷
     private final static String TOKEN = "token";
-    //积分商城历史兑换分享地址
+    //锟斤拷锟斤拷锟教筹拷锟斤拷史锟揭伙拷锟斤拷锟斤拷锟斤拷址
     private final static String MALLURL = "mallUrl";
-    //五折分享地址
+    //锟斤拷锟桔凤拷锟斤拷锟斤拷址
     private final static String BUYINGSPREEURL = "buyingSpreeUrl";
-    //员工头像绝对地址
+    //员锟斤拷头锟斤拷锟斤拷锟皆碉拷址
     private final static String STAFFIMGPATH = "staffImgPath";
-    //员工头像相对地址
+    //员锟斤拷头锟斤拷锟斤拷锟皆碉拷址
     private final static String STAFFIMGURL = "staffImgUrl";
-    //移动应用物理地址
+    //锟狡讹拷应锟斤拷锟斤拷锟斤拷锟斤拷址
     private final static String APPPATH = "app";
-    //移动应用网络相对地址
+    //锟狡讹拷应锟斤拷锟斤拷锟斤拷锟斤拷锟皆碉拷址
     private final static String APPURL = "appUrl";
-    //食品图片物理地址
+    //食品图片锟斤拷锟斤拷锟斤拷址
     private final static String PRODUCTIMAGEPATH = "productImgPath";
-    //聊天记录存储地址
+    //锟斤拷锟斤拷锟斤拷录锟芥储锟斤拷址
     private final static String CHATLOGPATH = "chatlog";
-    
-    //安装员工下载地址
+
+    //锟斤拷装员锟斤拷锟斤拷锟截碉拷址
 //    private final static String Staffdownload
     private final static String STAFFDOWNLOAD = "staffDownLoad";
-    
-    //订单扫描绝对地址
-    private final static String BILLQRCODEIMGPATH = "billQrcodeImgPath"; 
-    
-    //订单扫描相对地址
+
+    //锟斤拷锟斤拷扫锟斤拷锟斤拷锟皆碉拷址
+    private final static String BILLQRCODEIMGPATH = "billQrcodeImgPath";
+
+    //锟斤拷锟斤拷扫锟斤拷锟斤拷锟皆碉拷址
     private final static String BILLQRCODEIMGURL = "billQrcodeImgUrl";
-    
+
 
     /**
-     * 私有化构造方法
+     * 私锟叫伙拷锟斤拷锟届方锟斤拷
      */
     private Configure() {
     }
 
     /**
-     * 获取对应的键值
+     * 锟斤拷取锟斤拷应锟侥硷拷值
      *
      * @param key
      * @return
@@ -165,7 +165,7 @@ public class Configure {
     }
 
     /**
-     * 食品图片物理地址
+     * 食品图片锟斤拷锟斤拷锟斤拷址
      *
      * @return
      */
@@ -176,7 +176,7 @@ public class Configure {
     }
 
     /**
-     * 移动应用存储物理地址
+     * 锟狡讹拷应锟矫存储锟斤拷锟斤拷锟斤拷址
      *
      * @return
      */
@@ -187,7 +187,7 @@ public class Configure {
     }
 
     /**
-     * 移动应用存储网络地址
+     * 锟狡讹拷应锟矫存储锟斤拷锟斤拷锟斤拷址
      *
      * @return
      */
@@ -198,7 +198,7 @@ public class Configure {
     }
 
     /**
-     * 聊天记录存储地址
+     * 锟斤拷锟斤拷锟斤拷录锟芥储锟斤拷址
      *
      * @return
      */
@@ -210,11 +210,11 @@ public class Configure {
 
     public static String getStaffdownload() {
     	return getValue(STAFFDOWNLOAD);
-		
+
 	}
-    
+
     /**
-     * 订单扫描记录地址
+     * 锟斤拷锟斤拷扫锟斤拷锟斤拷录锟斤拷址
      */
 	public static String getBillqrcodeimgpath() {
     	return getValue(BILLQRCODEIMGPATH);

@@ -20,7 +20,7 @@ import com.soqz.wap.util.ToolsUtil;
  * @author HMH
  *
  */
-public class C3P0 {//1
+public class C3P0 {//2
 	
 	private static final long serialVersionUID = 1L;
 	
